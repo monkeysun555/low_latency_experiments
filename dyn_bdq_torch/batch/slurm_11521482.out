@@ -1,0 +1,15 @@
+player initial finish
+=> Restore ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-92000.pth
+Episode starts from:  92001
+episode: 92200
+=> Save ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-92200.pth
+episode: 92400
+=> Save ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-92400.pth
+Episode: 92500 Reward: -189.429 Loss: 47.680
+episode: 92600
+=> Save ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-92600.pth
+episode: 92800
+=> Save ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-92800.pth
+episode: 93000
+=> Save ./models/logs_m_2/q_2/t_2/l_0/latency_Nones/model-93000.pth
+Episode: 93000 Reward: -281.287 Loss: 34.392

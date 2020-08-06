@@ -1,0 +1,24 @@
+player initial finish
+=> Restore ./models/logs_m_0/t_0/l_0/latency_Nones/model-42000.pth
+Episode starts from:  42001
+episode: 42100
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42100.pth
+episode: 42200
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42200.pth
+episode: 42300
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42300.pth
+episode: 42400
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42400.pth
+episode: 42500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42500.pth
+episode: 42600
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42600.pth
+episode: 42700
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42700.pth
+episode: 42800
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42800.pth
+episode: 42900
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42900.pth
+episode: 43000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-43000.pth
+Episode: 43000 Reward: -841.841 Loss: 10.928
