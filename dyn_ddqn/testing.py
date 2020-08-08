@@ -61,9 +61,9 @@ def main():
         if not os.path.exists(result_path):
              os.makedirs(result_path) 
         if random_latency:
-            compare_file = open(compare_path + 'naive_speed_normal.txt' , 'w')
+            compare_file = open(compare_path + 'ddqn.txt' , 'w')
         else:
-            compare_file = open(compare_path + 'naive_speed_' + str(int(init_latency)) +'s.txt' , 'w')
+            compare_file = open(compare_path + 'ddqn_' + str(int(init_latency)) +'s.txt' , 'w')
                
         while True:
             # Start testing

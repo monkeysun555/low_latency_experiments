@@ -103,7 +103,7 @@ class Env_Config(object):
     action_reward = 1.0 * chunk_seg_ratio   
     rebuf_penalty = 6.0                         
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.5 * chunk_seg_ratio
+    long_delay_penalty_new = 0.1 * chunk_seg_ratio
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 

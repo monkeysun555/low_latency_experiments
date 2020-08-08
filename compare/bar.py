@@ -11,7 +11,7 @@ SAVING_DIR = './metric_box/'
 RES_DIR = './compare_results/'
 # ALGOS = ['RATE', 'iLQR', 'DDQN', 'BDQ', 'iLQR*', 'iLQR**']
 # ALGOS = ['Pensieve', 'iLQR', 'DDQN', 'BDQ', 'iLQR*', 'iLQR**']
-ALGOS = ['Pensieve', 'STALLION', 'iLQR', 'DDQN', 'BDQ','iLQR*']
+ALGOS = ['Pensieve', 'STALLION', 'iLQR', 'DDQN', 'BDQ', 'iLQR*']
 
 LINE_TYPES = ['+', '*', 'h', 'd', '.']
 # COLORS = ['#1f77b4',  '#ff7f0e',  '#2ca02c',
@@ -30,7 +30,7 @@ def name_translate(name):
     if name == 'iLQR':
         return 'dyn_mpc_normal.txt'
     elif name == 'DDQN':
-        return 'naive_speed_normal.txt'
+        return 'ddqn.txt'
     elif name == 'RATE':
         return 'rate_adaption_normal.txt'
     elif name == 'BDQ':

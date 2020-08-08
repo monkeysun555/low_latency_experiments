@@ -21,7 +21,7 @@ class iLQR_solver(object):
         self.w1 = 1
         self.w2 = 1
         self.w3 = 1              # Freeze
-        self.w4 = 0.5             # Latency
+        self.w4 = 0.1             # Latency
         self.w5 = 15              # Speed unnormal, due to **2
         self.w6 = 15              # Speed change, due to **2
         self.barrier_1 = 1
@@ -34,7 +34,7 @@ class iLQR_solver(object):
         self.predicted_bw = None
         # self.predicted_rtt = predicted_rtt
         self.predicted_rtt = None
-        self.n_iteration = 50
+        self.n_iteration = 10
         self.Bu = None
         self.b0 = None
         self.l0 = None
@@ -46,7 +46,7 @@ class iLQR_solver(object):
         self.KT_step = 1.
         self.step_size = 0.15
         self.decay = 1.
-        self.bw_ratio = 0.9 
+        self.bw_ratio = 1.0 
 
     def set_step(self, step=DEF_N_STEP):
         self.n_step = step
